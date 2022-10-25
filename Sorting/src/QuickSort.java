@@ -1,5 +1,6 @@
 public class QuickSort {
     public void sort(int []array){
+        //pivot is the initial element
         sort(array,0, array.length-1);
     }
     private void sort(int[] array,int start,int end){
